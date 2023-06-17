@@ -1,0 +1,48 @@
+name: komik2
+version: 1.0.0+1
+publish_to: none
+description: Project Read Komik
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  anim_search_bar: ^2.0.3
+  animations: 2.0.7
+  beautiful_soup_dart: 0.3.0
+  bottom_navy_bar: 6.0.0
+  cached_network_image: ^3.2.3
+  carousel_slider: 4.2.1
+  connectivity_plus: ^3.0.2
+  cupertino_icons: ^1.0.2
+  expandable: 5.0.1
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  flutter_scrolling_fab_animated: 0.1.4
+  font_awesome_flutter: 10.3.0
+  get: 4.6.5
+  google_fonts: 3.0.1
+  hidable: 1.0.3
+  http: 0.13.5
+  infinite_scroll_pagination: 3.2.0
+  internet_connection_checker: ^1.0.0+1
+  like_button: 2.0.5
+  path_provider: 2.0.12
+  sqflite: 2.2.3
+
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logoKomik.jpg"
+  min_sdk_android: 21
+
+flutter:
+  assets:
+    - assets/icons/
+    - assets/images/
+  uses-material-design: true
